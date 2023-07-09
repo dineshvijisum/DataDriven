@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BothCorrect"> 
+<test name="BothCorrect">
+<parameter name="userName" value="pofopo4020@iucake.com"></parameter>
+<parameter name="password" value="12345678"> </parameter>
+<classes>
+<class name="dtaDrvn.BothCorrect">
+
+</class>
+</classes>
+</test>
+
+<test name="BothIncorrect">
+<parameter name="userName" value="pofopo40gg20@iucake.com"></parameter>
+<parameter name="password" value="123456gg78"> </parameter>
+<classes>
+<class name="dtaDrvn.BothIncorrect">
+
+</class>
+</classes>
+</test>
+
+<test name="PassIncorrect">
+<parameter name="userName" value="pofopo4020@iucake.com"></parameter>
+<parameter name="password" value="1234eee5678"> </parameter>
+<classes>
+<class name="dtaDrvn.PassIncorrect">
+
+</class>
+</classes>
+</test>
+
+<test name="UnameIncorrect">
+<parameter name="userName" value="pofopeeeo4020@iucake.com"></parameter>
+<parameter name="password" value="12345678"> </parameter>
+<classes>
+<class name="dtaDrvn.UnameIncorrect">
+
+</class>
+</classes>
+</test>
+</suite>
